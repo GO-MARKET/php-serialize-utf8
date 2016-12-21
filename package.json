@@ -1,0 +1,29 @@
+{
+  "name": "php-serialize-utf8",
+  "version": "0.0.1",
+  "description": "PHP serialize/unserialize in Javascript",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "apm test",
+    "lint": "eslint .",
+    "compile": "ucompiler go",
+    "watch": "ucompiler watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/duncup/php-serialize.git"
+  },
+  "author": "duncup",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/duncup/php-serialize/issues"
+  },
+  "homepage": "https://github.com/duncup/php-serialize#readme",
+  "devDependencies": {
+    "babel-preset-steelbrain": "^4.0.0",
+    "eslint-config-steelbrain": "^1.0.1",
+    "sb-exec": "^3.0.2",
+    "ucompiler": "^3.1.8",
+    "ucompiler-plugin-babel": "^3.1.1"
+  }
+}
